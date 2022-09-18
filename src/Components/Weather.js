@@ -5,9 +5,9 @@ import WeatherCard from './WeatherCard';
 
 const weather = (props) => {
     const {apiKey} = props
-    const [location, setlocation] = useState('')
+    const [Location, setLocation] = useState('')
     const [data, setData] = useState([])
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${Location}&appid=${apiKey}&units=metric`
   
    const NewsKey ='f81ce4cb317b46b191c4b4e8a70e18a9'
     const fetchweather = (e) => {
@@ -15,12 +15,12 @@ const weather = (props) => {
         // using axios instead of fetch because of data 
          axios.get(url).then((response) => {
             setData(response.data)
-            setlocation(location)
+            setLocation(Location)
         })
 
     }
     const handlechange = (e) => {
-        setlocation(e.target.value)
+        setLocation(e.target.value)
     }
     console.log()
     // useEffect(() => {
@@ -37,8 +37,8 @@ const weather = (props) => {
            
             <form className="d-flex justify-content-center my-5" role="search">
                 <input className="form-control me-2" type="search" placeholder="Search City" aria-label="Search" style={{ width: "30%" }}
-                    name={location}
-                    value={location}
+                    name={Location}
+                    value={Location}
                     onChange={handlechange}
                 />
                 
