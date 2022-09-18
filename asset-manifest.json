@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AarushVats/myweather/static/css/main.21abd550.css",
-    "main.js": "/AarushVats/myweather/static/js/main.f925b98b.js",
-    "static/js/787.7c71f673.chunk.js": "/AarushVats/myweather/static/js/787.7c71f673.chunk.js",
-    "static/media/bg.jpg": "/AarushVats/myweather/static/media/bg.2f79064a8b87ca32f5cd.jpg",
-    "index.html": "/AarushVats/myweather/index.html",
-    "main.21abd550.css.map": "/AarushVats/myweather/static/css/main.21abd550.css.map",
-    "main.f925b98b.js.map": "/AarushVats/myweather/static/js/main.f925b98b.js.map",
-    "787.7c71f673.chunk.js.map": "/AarushVats/myweather/static/js/787.7c71f673.chunk.js.map"
+    "main.css": "/weatherapp/static/css/main.87e2f10e.css",
+    "main.js": "/weatherapp/static/js/main.6fa20ef2.js",
+    "static/js/787.7c71f673.chunk.js": "/weatherapp/static/js/787.7c71f673.chunk.js",
+    "static/media/bg.jpg": "/weatherapp/static/media/bg.2f79064a8b87ca32f5cd.jpg",
+    "index.html": "/weatherapp/index.html",
+    "main.87e2f10e.css.map": "/weatherapp/static/css/main.87e2f10e.css.map",
+    "main.6fa20ef2.js.map": "/weatherapp/static/js/main.6fa20ef2.js.map",
+    "787.7c71f673.chunk.js.map": "/weatherapp/static/js/787.7c71f673.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21abd550.css",
-    "static/js/main.f925b98b.js"
+    "static/css/main.87e2f10e.css",
+    "static/js/main.6fa20ef2.js"
   ]
 }
